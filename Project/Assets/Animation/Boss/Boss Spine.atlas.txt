@@ -1,0 +1,194 @@
+
+Boss Spine.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+braccio dietro 1 sx
+  rotate: false
+  xy: 1634, 370
+  size: 282, 533
+  orig: 282, 533
+  offset: 0, 0
+  index: -1
+braccio dietro 2 sx
+  rotate: true
+  xy: 1369, 71
+  size: 282, 533
+  orig: 282, 533
+  offset: 0, 0
+  index: -1
+braccio dietro 3/4/5 sx
+  rotate: true
+  xy: 2, 36
+  size: 282, 533
+  orig: 282, 533
+  offset: 0, 0
+  index: -1
+denti 5
+  rotate: false
+  xy: 1369, 355
+  size: 255, 171
+  orig: 255, 171
+  offset: 0, 0
+  index: -1
+mento allungato  5
+  rotate: true
+  xy: 766, 1011
+  size: 293, 102
+  orig: 293, 102
+  offset: 0, 0
+  index: -1
+occhi 1/2/3
+  rotate: false
+  xy: 766, 895
+  size: 87, 114
+  orig: 87, 114
+  offset: 0, 0
+  index: -1
+parte braccio dietro 1 dx
+  rotate: false
+  xy: 1782, 1661
+  size: 254, 376
+  orig: 254, 376
+  offset: 0, 0
+  index: -1
+parte braccio dietro 2 dx
+  rotate: false
+  xy: 1782, 1283
+  size: 254, 376
+  orig: 254, 376
+  offset: 0, 0
+  index: -1
+parte braccio dietro 3/4/5  dx
+  rotate: false
+  xy: 1782, 905
+  size: 254, 376
+  orig: 254, 376
+  offset: 0, 0
+  index: -1
+parte diero braccio due 1 sx
+  rotate: false
+  xy: 2, 813
+  size: 762, 491
+  orig: 762, 491
+  offset: 0, 0
+  index: -1
+parte diero braccio due 2 sx
+  rotate: false
+  xy: 870, 528
+  size: 762, 491
+  orig: 762, 491
+  offset: 0, 0
+  index: -1
+parte diero braccio due 3/4/5 sx
+  rotate: false
+  xy: 2, 320
+  size: 762, 491
+  orig: 762, 491
+  offset: 0, 0
+  index: -1
+sopracciglio 1/2/3
+  rotate: true
+  xy: 766, 778
+  size: 115, 37
+  orig: 115, 37
+  offset: 0, 0
+  index: -1
+spallacci 1
+  rotate: false
+  xy: 892, 1481
+  size: 888, 556
+  orig: 888, 556
+  offset: 0, 0
+  index: -1
+spallacci 2
+  rotate: false
+  xy: 2, 1306
+  size: 888, 731
+  orig: 888, 731
+  offset: 0, 0
+  index: -1
+spallacci 345
+  rotate: false
+  xy: 892, 1021
+  size: 888, 458
+  orig: 888, 458
+  offset: 0, 0
+  index: -1
+testa 3/4/5
+  rotate: false
+  xy: 766, 2
+  size: 601, 524
+  orig: 601, 524
+  offset: 0, 0
+  index: -1
+variant occhi 4/5
+  rotate: false
+  xy: 537, 127
+  size: 219, 191
+  orig: 219, 191
+  offset: 0, 0
+  index: -1
+
+Boss Spine2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+braccio avanti 1 dx
+  rotate: false
+  xy: 1054, 127
+  size: 302, 437
+  orig: 302, 437
+  offset: 0, 0
+  index: -1
+braccio avanti 2 dx
+  rotate: false
+  xy: 1358, 132
+  size: 302, 437
+  orig: 302, 437
+  offset: 0, 0
+  index: -1
+braccio avanti 3/4/5 dx
+  rotate: false
+  xy: 1662, 132
+  size: 302, 437
+  orig: 302, 437
+  offset: 0, 0
+  index: -1
+collo 1/2/3/4/5
+  rotate: true
+  xy: 603, 566
+  size: 427, 663
+  orig: 427, 663
+  offset: 0, 0
+  index: -1
+pezzo armatura aggiuntivo 4
+  rotate: false
+  xy: 603, 268
+  size: 449, 296
+  orig: 449, 296
+  offset: 0, 0
+  index: -1
+testa 1
+  rotate: true
+  xy: 2, 2
+  size: 422, 517
+  orig: 422, 517
+  offset: 0, 0
+  index: -1
+testa 2
+  rotate: true
+  xy: 1268, 571
+  size: 422, 517
+  orig: 422, 517
+  offset: 0, 0
+  index: -1
+torso 1/2/3/4/5
+  rotate: false
+  xy: 2, 426
+  size: 599, 567
+  orig: 599, 567
+  offset: 0, 0
+  index: -1

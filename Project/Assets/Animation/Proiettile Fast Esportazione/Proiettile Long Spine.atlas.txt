@@ -1,0 +1,20 @@
+
+Proiettile Long Spine.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fast evil
+  rotate: false
+  xy: 312, 8
+  size: 308, 244
+  orig: 308, 244
+  offset: 0, 0
+  index: -1
+Fast good
+  rotate: false
+  xy: 2, 2
+  size: 308, 250
+  orig: 308, 250
+  offset: 0, 0
+  index: -1

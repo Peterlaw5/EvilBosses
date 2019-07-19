@@ -1,0 +1,20 @@
+
+Proiettile Fiammella Spine.png
+size: 256,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fiammella-evil
+  rotate: false
+  xy: 2, 336
+  size: 250, 340
+  orig: 250, 340
+  offset: 0, 0
+  index: -1
+Fiammella-good
+  rotate: false
+  xy: 2, 2
+  size: 247, 332
+  orig: 247, 332
+  offset: 0, 0
+  index: -1

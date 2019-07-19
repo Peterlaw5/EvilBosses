@@ -1,0 +1,90 @@
+
+Character spine.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+braccio davanti
+  rotate: true
+  xy: 250, 13
+  size: 36, 60
+  orig: 36, 60
+  offset: 0, 0
+  index: -1
+braccio dietro
+  rotate: true
+  xy: 346, 13
+  size: 65, 69
+  orig: 65, 69
+  offset: 0, 0
+  index: -1
+capelli
+  rotate: false
+  xy: 2, 27
+  size: 201, 227
+  orig: 201, 227
+  offset: 0, 0
+  index: -1
+espressione
+  rotate: false
+  xy: 362, 183
+  size: 94, 71
+  orig: 94, 71
+  offset: 0, 0
+  index: -1
+faccia base
+  rotate: false
+  xy: 205, 89
+  size: 155, 165
+  orig: 155, 165
+  offset: 0, 0
+  index: -1
+gamba davanti
+  rotate: false
+  xy: 458, 186
+  size: 41, 68
+  orig: 41, 68
+  offset: 0, 0
+  index: -1
+gamba dietro
+  rotate: true
+  xy: 362, 80
+  size: 25, 80
+  orig: 25, 80
+  offset: 0, 0
+  index: -1
+laccio vita
+  rotate: false
+  xy: 2, 9
+  size: 53, 16
+  orig: 53, 16
+  offset: 0, 0
+  index: -1
+occhi chiusi
+  rotate: false
+  xy: 205, 51
+  size: 94, 36
+  orig: 94, 36
+  offset: 0, 0
+  index: -1
+oreccio
+  rotate: false
+  xy: 205, 2
+  size: 43, 47
+  orig: 43, 47
+  offset: 0, 0
+  index: -1
+spallina
+  rotate: false
+  xy: 301, 53
+  size: 43, 34
+  orig: 43, 34
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 362, 107
+  size: 91, 74
+  orig: 91, 74
+  offset: 0, 0
+  index: -1

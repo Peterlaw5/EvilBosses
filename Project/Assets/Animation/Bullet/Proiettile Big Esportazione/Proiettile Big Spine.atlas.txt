@@ -1,0 +1,20 @@
+
+Proiettile Big Spine.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Big - evil
+  rotate: false
+  xy: 2, 866
+  size: 1627, 862
+  orig: 1627, 862
+  offset: 0, 0
+  index: -1
+Big - good
+  rotate: false
+  xy: 2, 2
+  size: 1624, 862
+  orig: 1624, 862
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,1817 @@
+{
+"skeleton": { "hash": "9lUjXC+9TDgBKdGbFrkjEBtULds", "spine": "3.6.53", "width": 920, "height": 987 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "torso 1/2/3/4/5", "parent": "root", "length": 456.06, "rotation": 88.6, "x": 4.56, "y": 37.44 },
+	{
+		"name": "parte braccio dietro 1 dx",
+		"parent": "torso 1/2/3/4/5",
+		"length": 331.25,
+		"rotation": 151.41,
+		"x": 428.23,
+		"y": 207.68
+	},
+	{
+		"name": "braccio avanti 1 dx",
+		"parent": "parte braccio dietro 1 dx",
+		"length": 337.56,
+		"rotation": -171.49,
+		"x": 369.21,
+		"y": 2.27
+	},
+	{
+		"name": "parte diero braccio due 1 sx",
+		"parent": "torso 1/2/3/4/5",
+		"length": 327.19,
+		"rotation": 172.42,
+		"x": 423.61,
+		"y": -347.12
+	},
+	{
+		"name": "braccio dietro 1 sx",
+		"parent": "parte diero braccio due 1 sx",
+		"length": 360.98,
+		"rotation": -160.53,
+		"x": 319.18,
+		"y": -0.12
+	},
+	{ "name": "collo 1/2/3/4/5", "parent": "torso 1/2/3/4/5", "length": 193.95, "rotation": 10.25, "x": 443.97, "y": -45.39 },
+	{ "name": "testa 1", "parent": "collo 1/2/3/4/5", "length": 212.93, "rotation": -7.04, "x": 129.78, "y": 63.6 },
+	{ "name": "denti 5", "parent": "testa 1", "x": -25.38, "y": 20.07 },
+	{ "name": "mento allungato  5", "parent": "testa 1", "x": -101.97, "y": 5.16 },
+	{ "name": "occhi 1/2/3", "parent": "testa 1", "x": 23.56, "y": 55.2 },
+	{ "name": "pezzo armatura aggiuntivo 4", "parent": "torso 1/2/3/4/5", "length": 84.87, "rotation": 0.8, "x": 107.81, "y": -57.28 },
+	{ "name": "sopracciglio 1/2/3", "parent": "testa 1", "x": 57.69, "y": 56.95 },
+	{ "name": "spallacci 1", "parent": "torso 1/2/3/4/5", "length": 112.36, "rotation": -0.92, "x": 299.6, "y": -52.95 }
+],
+"slots": [
+	{ "name": "mento allungato  5", "bone": "mento allungato  5", "attachment": "mento allungato  5" },
+	{ "name": "denti 5", "bone": "denti 5", "attachment": "denti 5" },
+	{ "name": "torso 1/2/3/4/5", "bone": "torso 1/2/3/4/5", "attachment": "torso 1/2/3/4/5" },
+	{ "name": "pezzo armatura aggiuntivo 4", "bone": "pezzo armatura aggiuntivo 4", "attachment": "pezzo armatura aggiuntivo 4" },
+	{ "name": "parte braccio dietro 1 dx", "bone": "parte braccio dietro 1 dx", "attachment": "Braccio dietro dx" },
+	{ "name": "parte diero braccio due 1 sx", "bone": "parte diero braccio due 1 sx", "attachment": "Braccio dietro sx" },
+	{ "name": "collo 1/2/3/4/5", "bone": "collo 1/2/3/4/5", "attachment": "collo 1/2/3/4/5" },
+	{ "name": "testa 1", "bone": "testa 1", "attachment": "Testa" },
+	{ "name": "spallacci 1", "bone": "spallacci 1", "attachment": "Spallaccio" },
+	{ "name": "braccio avanti 1 dx", "bone": "braccio avanti 1 dx", "attachment": "Braccio avanti dx" },
+	{ "name": "braccio dietro 1 sx", "bone": "braccio dietro 1 sx", "attachment": "Braccio dietro sx" },
+	{ "name": "occhi 1/2/3", "bone": "occhi 1/2/3", "attachment": "occhi 1/2/3" },
+	{ "name": "sopracciglio 1/2/3", "bone": "sopracciglio 1/2/3", "attachment": "sopracciglio 1/2/3" }
+],
+"skins": {
+	"default": {
+		"collo 1/2/3/4/5": {
+			"collo 1/2/3/4/5": { "x": -69.06, "y": 35.32, "rotation": -98.85, "width": 427, "height": 663 }
+		},
+		"denti 5": {
+			"denti 5": { "x": 14.76, "y": -4.28, "rotation": -91.81, "width": 255, "height": 171 }
+		},
+		"mento allungato  5": {
+			"mento allungato  5": { "x": -15.02, "y": -15.01, "rotation": -91.81, "width": 293, "height": 102 }
+		},
+		"occhi 1/2/3": {
+			"occhi 1/2/3": { "x": -4.59, "y": -5.33, "rotation": -91.81, "width": 87, "height": 114 },
+			"variant occhi 4/5": { "x": 9.08, "y": -31.78, "rotation": -91.81, "width": 219, "height": 191 }
+		},
+		"pezzo armatura aggiuntivo 4": {
+			"pezzo armatura aggiuntivo 4": { "x": 54.97, "y": 20.52, "rotation": -89.4, "width": 449, "height": 296 }
+		},
+		"sopracciglio 1/2/3": {
+			"sopracciglio 1/2/3": { "x": -0.2, "y": -7.29, "rotation": -91.81, "width": 115, "height": 37 }
+		},
+		"torso 1/2/3/4/5": {
+			"torso 1/2/3/4/5": { "x": 240.82, "y": -69.09, "rotation": -88.6, "width": 599, "height": 567 }
+		}
+	},
+	"Skin Boss 1": {
+		"braccio avanti 1 dx": {
+			"Braccio avanti dx": { "name": "braccio avanti 1 dx", "x": 164.15, "y": -16.21, "rotation": -68.52, "width": 302, "height": 437 }
+		},
+		"braccio dietro 1 sx": {
+			"Braccio dietro sx": { "name": "braccio dietro 1 sx", "x": 157.62, "y": 25.72, "rotation": -100.5, "width": 282, "height": 533 }
+		},
+		"parte braccio dietro 1 dx": {
+			"Braccio dietro dx": { "name": "parte braccio dietro 1 dx", "x": 153.73, "y": 10.92, "rotation": 119.99, "width": 254, "height": 376 }
+		},
+		"parte diero braccio due 1 sx": {
+			"Braccio dietro sx": { "name": "parte diero braccio due 1 sx", "x": 155.75, "y": -294.21, "rotation": 98.97, "width": 762, "height": 491 }
+		},
+		"spallacci 1": {
+			"Spallaccio": { "name": "spallacci 1", "x": 50.69, "y": 41.88, "rotation": -87.69, "width": 888, "height": 556 }
+		},
+		"testa 1": {
+			"Testa": { "name": "testa 1", "x": 122.88, "y": -1.94, "rotation": -91.81, "width": 422, "height": 517 }
+		}
+	},
+	"Skin Boss 2": {
+		"braccio avanti 1 dx": {
+			"Braccio avanti dx": { "name": "braccio avanti 2 dx", "x": 160.43, "y": -17.68, "rotation": -68.52, "width": 302, "height": 437 }
+		},
+		"braccio dietro 1 sx": {
+			"Braccio dietro sx": { "name": "braccio dietro 2 sx", "x": 157.62, "y": 25.72, "rotation": -100.5, "width": 282, "height": 533 }
+		},
+		"parte braccio dietro 1 dx": {
+			"Braccio dietro dx": { "name": "parte braccio dietro 2 dx", "x": 157.19, "y": 12.92, "rotation": 119.99, "width": 254, "height": 376 }
+		},
+		"parte diero braccio due 1 sx": {
+			"Braccio dietro sx": { "name": "parte diero braccio due 2 sx", "x": 155.75, "y": -294.21, "rotation": 98.97, "width": 762, "height": 491 }
+		},
+		"spallacci 1": {
+			"Spallaccio": { "name": "spallacci 2", "x": 112.14, "y": 44.36, "rotation": -87.69, "width": 888, "height": 731 }
+		},
+		"testa 1": {
+			"Testa": { "name": "testa 2", "x": 118.88, "y": -1.82, "rotation": -91.81, "width": 422, "height": 517 }
+		}
+	},
+	"Skin Boss 3": {
+		"braccio avanti 1 dx": {
+			"Braccio avanti dx": { "name": "braccio avanti 3/4/5 dx", "x": 164.15, "y": -16.21, "rotation": -68.52, "width": 302, "height": 437 }
+		},
+		"braccio dietro 1 sx": {
+			"Braccio dietro sx": { "name": "braccio dietro 3/4/5 sx", "x": 157.62, "y": 25.72, "rotation": -100.5, "width": 282, "height": 533 }
+		},
+		"parte braccio dietro 1 dx": {
+			"Braccio dietro dx": { "name": "parte braccio dietro 3/4/5  dx", "x": 153.73, "y": 10.92, "rotation": 119.99, "width": 254, "height": 376 }
+		},
+		"parte diero braccio due 1 sx": {
+			"Braccio dietro sx": { "name": "parte diero braccio due 3/4/5 sx", "x": 159.71, "y": -293.59, "rotation": 98.97, "width": 762, "height": 491 }
+		},
+		"spallacci 1": {
+			"Spallaccio": { "name": "spallacci 345", "x": 126.63, "y": 44.95, "rotation": -87.69, "width": 888, "height": 458 }
+		},
+		"testa 1": {
+			"Testa": { "name": "testa 3/4/5", "x": 123.64, "y": -88.51, "rotation": -91.81, "width": 601, "height": 524 }
+		}
+	},
+	"Skin Boss 4": {
+		"braccio avanti 1 dx": {
+			"Braccio avanti dx": { "name": "braccio avanti 3/4/5 dx", "x": 164.15, "y": -16.21, "rotation": -68.52, "width": 302, "height": 437 }
+		},
+		"braccio dietro 1 sx": {
+			"Braccio dietro sx": { "name": "braccio dietro 3/4/5 sx", "x": 157.62, "y": 25.72, "rotation": -100.5, "width": 282, "height": 533 }
+		},
+		"parte braccio dietro 1 dx": {
+			"Braccio dietro dx": { "name": "parte braccio dietro 3/4/5  dx", "x": 153.73, "y": 10.92, "rotation": 119.99, "width": 254, "height": 376 }
+		},
+		"parte diero braccio due 1 sx": {
+			"Braccio dietro sx": { "name": "parte diero braccio due 3/4/5 sx", "x": 159.71, "y": -293.59, "rotation": 98.97, "width": 762, "height": 491 }
+		},
+		"spallacci 1": {
+			"Spallaccio": { "name": "spallacci 345", "x": 126.63, "y": 44.95, "rotation": -87.69, "width": 888, "height": 458 }
+		},
+		"testa 1": {
+			"Testa": { "name": "testa 3/4/5", "x": 123.64, "y": -88.51, "rotation": -91.81, "width": 601, "height": 524 }
+		}
+	},
+	"Skin Boss 5": {
+		"braccio avanti 1 dx": {
+			"Braccio avanti dx": { "name": "braccio avanti 3/4/5 dx", "x": 164.15, "y": -16.21, "rotation": -68.52, "width": 302, "height": 437 }
+		},
+		"braccio dietro 1 sx": {
+			"Braccio dietro sx": { "name": "braccio dietro 3/4/5 sx", "x": 157.62, "y": 25.72, "rotation": -100.5, "width": 282, "height": 533 }
+		},
+		"parte braccio dietro 1 dx": {
+			"Braccio dietro dx": { "name": "parte braccio dietro 3/4/5  dx", "x": 153.73, "y": 10.92, "rotation": 119.99, "width": 254, "height": 376 }
+		},
+		"parte diero braccio due 1 sx": {
+			"Braccio dietro sx": { "name": "parte diero braccio due 3/4/5 sx", "x": 159.71, "y": -293.59, "rotation": 98.97, "width": 762, "height": 491 }
+		},
+		"spallacci 1": {
+			"Spallaccio": { "name": "spallacci 345", "x": 126.63, "y": 44.95, "rotation": -87.69, "width": 888, "height": 458 }
+		},
+		"testa 1": {
+			"Testa": { "name": "testa 3/4/5", "x": 123.64, "y": -88.51, "rotation": -91.81, "width": 601, "height": 524 }
+		}
+	}
+},
+"animations": {
+	"animazione boss 1/2/3 idle": {
+		"slots": {
+			"denti 5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mento allungato  5": {
+				"attachment": [
+					{ "time": 0, "name": "mento allungato  5" }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"attachment": [
+					{ "time": 0, "name": "sopracciglio 1/2/3" },
+					{ "time": 1.3333, "name": "sopracciglio 1/2/3" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"torso 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": -0.76, "y": -30.97 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"spallacci 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 8.52, "y": -0.14 },
+					{ "time": 0.5, "x": -2.46, "y": 0.04 },
+					{ "time": 1.3333, "x": 8.52, "y": -0.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"parte diero braccio due 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": 40.65, "y": -5.41 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"braccio dietro 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6667, "angle": 5.95 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"parte braccio dietro 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": -20.63, "y": 11.24 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"braccio avanti 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2667, "angle": -2.72 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": -28.29, "y": -4.23 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"collo 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6667, "angle": 2.69 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"testa 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"denti 5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"mento allungato  5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"occhi 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"animazione boss 4 idle": {
+		"slots": {
+			"denti 5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mento allungato  5": {
+				"attachment": [
+					{ "time": 0, "name": "mento allungato  5" }
+				]
+			},
+			"occhi 1/2/3": {
+				"attachment": [
+					{ "time": 0, "name": "variant occhi 4/5" }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"attachment": [
+					{ "time": 0, "name": "pezzo armatura aggiuntivo 4" },
+					{ "time": 1.3333, "name": "pezzo armatura aggiuntivo 4" }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"torso 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": -0.76, "y": -30.97 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"spallacci 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 8.52, "y": -0.14 },
+					{ "time": 0.5, "x": -2.46, "y": 0.04 },
+					{ "time": 1.3333, "x": 8.52, "y": -0.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"parte diero braccio due 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": 40.65, "y": -5.41 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"braccio dietro 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6667, "angle": 5.95 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"parte braccio dietro 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": -20.63, "y": 11.24 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"braccio avanti 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2667, "angle": -2.72 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": -28.29, "y": -4.23 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"collo 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6667, "angle": 2.69 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"testa 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"denti 5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"mento allungato  5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"occhi 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"animazione boss 5 idle": {
+		"slots": {
+			"denti 5": {
+				"attachment": [
+					{ "time": 0, "name": "denti 5" }
+				]
+			},
+			"mento allungato  5": {
+				"attachment": [
+					{ "time": 0, "name": "mento allungato  5" }
+				]
+			},
+			"occhi 1/2/3": {
+				"attachment": [
+					{ "time": 0, "name": "variant occhi 4/5" }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"attachment": [
+					{ "time": 0, "name": "pezzo armatura aggiuntivo 4" },
+					{ "time": 1.3333, "name": "pezzo armatura aggiuntivo 4" }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"testa 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"parte braccio dietro 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": -20.63, "y": 11.24 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"mento allungato  5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"torso 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": -0.76, "y": -30.97 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"collo 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6667, "angle": 2.69 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"spallacci 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 8.52, "y": -0.14 },
+					{ "time": 0.5, "x": -2.46, "y": 0.04 },
+					{ "time": 1.3333, "x": 8.52, "y": -0.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"occhi 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"braccio dietro 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6667, "angle": 5.95 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"parte diero braccio due 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": 40.65, "y": -5.41 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"denti 5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"braccio avanti 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2667, "angle": -2.72 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": -28.29, "y": -4.23 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "mento allungato  5", "offset": 11 },
+					{ "slot": "denti 5", "offset": 11 }
+				]
+			}
+		]
+	},
+	"animazione morte 4": {
+		"slots": {
+			"denti 5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mento allungato  5": {
+				"attachment": [
+					{ "time": 0, "name": "mento allungato  5" }
+				]
+			},
+			"occhi 1/2/3": {
+				"attachment": [
+					{ "time": 0, "name": "variant occhi 4/5" }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"attachment": [
+					{ "time": 0, "name": "pezzo armatura aggiuntivo 4" }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"torso 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 8.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 49.49, "y": -403.32 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"parte braccio dietro 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -31.2 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"collo 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"mento allungato  5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"parte diero braccio due 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -334.57 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"denti 5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"braccio dietro 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": 273.6 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"testa 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -24.97 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"spallacci 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 8.52, "y": -0.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"occhi 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"braccio avanti 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": 51.45 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"animazione morte 5": {
+		"slots": {
+			"denti 5": {
+				"attachment": [
+					{ "time": 0, "name": "denti 5" }
+				]
+			},
+			"mento allungato  5": {
+				"attachment": [
+					{ "time": 0, "name": "mento allungato  5" }
+				]
+			},
+			"occhi 1/2/3": {
+				"attachment": [
+					{ "time": 0, "name": "variant occhi 4/5" }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"attachment": [
+					{ "time": 0, "name": "pezzo armatura aggiuntivo 4" }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"sopracciglio 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"braccio dietro 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": 273.6 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"denti 5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"braccio avanti 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": 51.45 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"torso 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 8.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 49.49, "y": -403.32 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"testa 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -24.97 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"parte braccio dietro 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -31.2 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"collo 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"spallacci 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 8.52, "y": -0.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"mento allungato  5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"occhi 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"parte diero braccio due 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -334.57 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "mento allungato  5", "offset": 11 },
+					{ "slot": "denti 5", "offset": 11 }
+				]
+			}
+		]
+	},
+	"animazione morte 1/2/3": {
+		"slots": {
+			"denti 5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mento allungato  5": {
+				"attachment": [
+					{ "time": 0, "name": "mento allungato  5" }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"attachment": [
+					{ "time": 0, "name": "sopracciglio 1/2/3" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"braccio dietro 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": 273.6 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"mento allungato  5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"collo 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"spallacci 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 8.52, "y": -0.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"parte braccio dietro 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -31.2 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"occhi 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"denti 5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"braccio avanti 1 dx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": 51.45 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"pezzo armatura aggiuntivo 4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"torso 1/2/3/4/5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 8.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 49.49, "y": -403.32 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"testa 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -24.97 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"sopracciglio 1/2/3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"parte diero braccio due 1 sx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -334.57 },
+					{ "time": 1.3333, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

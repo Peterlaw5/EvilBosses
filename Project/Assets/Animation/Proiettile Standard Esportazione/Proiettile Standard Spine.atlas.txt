@@ -1,0 +1,20 @@
+
+Proiettile Standard Spine.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Standard evil
+  rotate: false
+  xy: 2, 2
+  size: 360, 192
+  orig: 360, 192
+  offset: 0, 0
+  index: -1
+Standard good
+  rotate: false
+  xy: 364, 8
+  size: 353, 186
+  orig: 353, 186
+  offset: 0, 0
+  index: -1

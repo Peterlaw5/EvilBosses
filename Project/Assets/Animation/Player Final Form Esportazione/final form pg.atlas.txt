@@ -1,0 +1,55 @@
+
+final form pg.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armatura davanti
+  rotate: false
+  xy: 320, 105
+  size: 198, 139
+  orig: 198, 139
+  offset: 0, 0
+  index: -1
+braccio avanti
+  rotate: false
+  xy: 520, 157
+  size: 77, 87
+  orig: 77, 87
+  offset: 0, 0
+  index: -1
+braccio dietro
+  rotate: false
+  xy: 450, 18
+  size: 52, 85
+  orig: 52, 85
+  offset: 0, 0
+  index: -1
+gamba avanti
+  rotate: true
+  xy: 599, 163
+  size: 39, 78
+  orig: 39, 78
+  offset: 0, 0
+  index: -1
+gamba dietro
+  rotate: true
+  xy: 599, 204
+  size: 40, 110
+  orig: 40, 110
+  offset: 0, 0
+  index: -1
+parte dietro armatura
+  rotate: false
+  xy: 320, 23
+  size: 128, 80
+  orig: 128, 80
+  offset: 0, 0
+  index: -1
+testa
+  rotate: true
+  xy: 2, 2
+  size: 242, 316
+  orig: 242, 316
+  offset: 0, 0
+  index: -1

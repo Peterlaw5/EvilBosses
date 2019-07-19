@@ -1,0 +1,97 @@
+
+form 2 pg spine.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+braccio avanti
+  rotate: false
+  xy: 837, 187
+  size: 47, 67
+  orig: 47, 67
+  offset: 0, 0
+  index: -1
+braccio dietro
+  rotate: false
+  xy: 590, 188
+  size: 137, 66
+  orig: 137, 66
+  offset: 0, 0
+  index: -1
+busto
+  rotate: false
+  xy: 729, 174
+  size: 106, 80
+  orig: 106, 80
+  offset: 0, 0
+  index: -1
+capelli sopra
+  rotate: false
+  xy: 2, 44
+  size: 182, 210
+  orig: 182, 210
+  offset: 0, 0
+  index: -1
+capelli sotto
+  rotate: false
+  xy: 328, 139
+  size: 124, 115
+  orig: 124, 115
+  offset: 0, 0
+  index: -1
+faccia base
+  rotate: false
+  xy: 186, 99
+  size: 140, 155
+  orig: 140, 155
+  offset: 0, 0
+  index: -1
+fascia
+  rotate: false
+  xy: 260, 79
+  size: 64, 18
+  orig: 64, 18
+  offset: 0, 0
+  index: -1
+gamba davanti
+  rotate: true
+  xy: 186, 52
+  size: 45, 72
+  orig: 45, 72
+  offset: 0, 0
+  index: -1
+gamba dietrp
+  rotate: true
+  xy: 328, 111
+  size: 26, 90
+  orig: 26, 90
+  offset: 0, 0
+  index: -1
+naso e bocca
+  rotate: true
+  xy: 95, 2
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+occhi
+  rotate: false
+  xy: 2, 2
+  size: 91, 40
+  orig: 91, 40
+  offset: 0, 0
+  index: -1
+spallaccio sopra
+  rotate: false
+  xy: 454, 147
+  size: 64, 32
+  orig: 64, 32
+  offset: 0, 0
+  index: -1
+spallaccio sotto
+  rotate: false
+  xy: 454, 181
+  size: 134, 73
+  orig: 134, 73
+  offset: 0, 0
+  index: -1
